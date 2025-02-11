@@ -6,5 +6,5 @@
   - add remappings to `foundry.toml`
   - move `medusa.json` and `echidna.yaml` to the project root
 - get the `TargetFunctions.sol` functions from all the other contract ABI using [GetRecon sandbox](https://getrecon.xyz/tools/sandbox) and add them to `test/TargetFunctions.sol` 
-- manually Fix the Constructors
+- manually fix the constructors
 - `medusa fuzz`
