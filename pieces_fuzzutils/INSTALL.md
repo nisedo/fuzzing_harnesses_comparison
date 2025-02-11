@@ -1,0 +1,8 @@
+- `make install`
+- installed [fuzz-utils](https://github.com/crytic/fuzz-utils)
+- `forge install crytic/properties --no-commit`
+- `fuzz-utils init`
+- `solc-select install 0.8.18`
+- `solc-select use 0.8.18`
+- `fuzz-utils template . --prank`
+- `medusa fuzz`

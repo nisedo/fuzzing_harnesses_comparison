@@ -1,0 +1,7 @@
+- `make install`
+- `forge install perimetersec/fuzzlib --no-commit`
+- downloaded https://github.com/perimetersec/fuzzlib
+- copy arachne/test/fuzzing/ to `test/fuzzing`
+- copy `medusa.json` to `root/medusa.json`
+- copy `remappings.txt` to `root/remappings.txt`
+- `medusa fuzz`
