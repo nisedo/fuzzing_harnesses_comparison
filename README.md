@@ -8,3 +8,5 @@ Fuzzing harnesses comparison of:
 
 - Perimeter [Arachne](https://github.com/perimetersec/arachne):
   - https://github.com/nisedo/fuzzing_harness_comparison/tree/main/pieces_arachne
+
+See `INSTALL.md` in each `pieces_` folder for installation instructions
