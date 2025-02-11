@@ -1,8 +1,10 @@
 - `make install`
-- Obtained all files from https://getrecon.xyz/tools/sandbox by pasting one of the contract ABI and add to `/test`
-- `forge install Recon-Fuzz/chimera --no-commit`
-- add remappings to `foundry.toml`
-- move `medusa.json` and `echidna.yaml` to the project root
-- Get the `TargetFunctions.sol` functions from all the other contract ABI using GetRecon sandbox and add them to `test/TargetFunctions.sol` 
+- `forge build`
+- download all files from [GetRecon sandbox](https://getrecon.xyz/tools/sandbox) by pasting one of the contract ABI and add to `/test`
+- follow [installation help](https://getrecon.xyz/installation-help):
+  - `forge install Recon-Fuzz/chimera --no-commit`
+  - add remappings to `foundry.toml`
+  - move `medusa.json` and `echidna.yaml` to the project root
+- get the `TargetFunctions.sol` functions from all the other contract ABI using [GetRecon sandbox](https://getrecon.xyz/tools/sandbox) and add them to `test/TargetFunctions.sol` 
 - manually Fix the Constructors
 - `medusa fuzz`
